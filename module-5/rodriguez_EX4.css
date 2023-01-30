@@ -25,15 +25,16 @@ h1, h3 {
 
 #img {
     width: 400px;
-    height: 500px;
+    height: 350px;
 }
 
 h1, h3, figcaption {
     color: rgba(185, 63, 8);
+    font-weight: 400;
 }
 
 body {
-    background-color:rgba(185, 63, 8, .2);
+    background-color:rgba(247, 112, 24, .2);
 }
 
 #index {
