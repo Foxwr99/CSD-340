@@ -1,0 +1,41 @@
+#image-gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#book {
+    text-align: center;
+    border: solid rgba(185, 63, 8);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: .75em;
+    font-style: italic;
+}
+
+h1, h3 {
+    text-align: center;
+    font-family: "Oswald", Verdana, Arial, sans-serif;
+}
+
+#img {
+    width: 400px;
+    height: 500px;
+}
+
+h1, h3, figcaption {
+    color: rgba(185, 63, 8);
+}
+
+body {
+    background-color:rgba(185, 63, 8, .2);
+}
+
+#index {
+    text-align: right;
+}
